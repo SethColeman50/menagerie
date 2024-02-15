@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  discord-app:
+    build: ./discord_app
+    container_name: discord-app
+    restart: always
