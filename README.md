@@ -14,10 +14,13 @@ Discord Commands
     - args
         - people, one or two
         - animal
-- /allanimals: spreadsheet of animals 
+- /allanimals: spreadsheet of animals
 - /guildadd
 - /guildremove
 
 Features for later
 - guild auto add
 - etherial trade notifs
+- allanimals improvements
+    - Organization for row and col buttons (like a wiki)
+    - Dragging cols and rows around    
