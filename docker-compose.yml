@@ -4,3 +4,10 @@ services:
     build: ./discord_app
     container_name: discord-app
     restart: always
+  flask-app:
+    build: ./web_server
+    container_name: flask-app
+    restart: always
+    ports:
+      - "80:80"
+# decide if I want the discord bot to be in the same container as the zoo collecter
